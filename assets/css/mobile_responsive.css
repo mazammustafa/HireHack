@@ -1,0 +1,143 @@
+@media only screen and (max-width: 600px) {
+    .main-heading {
+        font-size: 50px;
+    }
+
+    .sub-heading {
+        font-size: 16px;
+    }
+
+    .para,
+    .para-white {
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    .banner,
+    .elevate,
+    .diverse,
+    .attract,
+    .top-tier,
+    .our-expert,
+    .job-offer,.footer {
+        padding: 30px 0 !important;
+    }
+
+    .banner .counters .counter .counts {
+        text-align: center;
+    }
+
+    .banner .counters .counter .counts-of {
+        justify-content: center;
+    }
+
+    .banner .a-btn {
+        padding-left: 0;
+        text-align: center !important;
+        margin-top: 30px;
+    }
+
+    .c-btn {
+        padding: 20px 40px;
+    }
+
+    .c-btn .btn-hi-img {
+        font-size: 20px;
+    }
+
+    .elevate .main-heading {
+        padding-top: 0;
+    }
+
+    .elevate .cards {
+        padding: 80px 0 20px;
+    }
+
+    .diverse .img-btn {
+        /* text-align: center; */
+        margin: 40px 0 0;
+    }
+
+    .attract .pricing-cards {
+        width: 100%;
+        margin: auto;
+        padding: 20px 0;
+    }
+
+    .attract .pricing-cards .cards,
+    .attract .pricing-cards .cards:nth-child(2n) {
+        border-radius: 60px;
+    }
+
+    .attract .pricing-cards .cards .price-card .cata h3 {
+        font-size: 20px;
+    }
+
+    .attract .pricing-cards .cards .price-card .cata h2 {
+        font-size: 44px;
+    }
+
+    .attract .pricing-cards .cards .price-card .list p {
+        font-size: 14px;
+    }
+
+    .attract .pricing-cards .cards .price-card .btns button {
+        padding: 15px 19px;
+    }
+
+    .attract .pricing-cards .cards .price-card .btns button .custom-btn {
+        font-size: 14px;
+    }
+
+    #plan-1,
+    #plan-3 {
+        transform: rotate(0deg);
+    }
+
+    .top-tier .img-btn {
+        /* text-align: center; */
+        margin: 100px 0 0;
+    }
+
+    .job-offer .job-offer-steps {
+        padding: 40px 0;
+    }
+
+    .job-offer .row .col-lg-3 {
+        width: 200px !important;
+        margin: auto;
+    }
+
+    .job-offer .job-offer-steps .step {
+        padding: 25px;
+    }
+
+    .job-offer .job-offer-steps .step p {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+
+    .footer .footer-content {
+        padding: 10px 5px;
+        height: fit-content;
+    }
+
+    .footer .footer-content .content {
+        /* flex-wrap: wrap; */
+        gap: 5px;
+    }
+
+    .footer .footer-content .content .navbar-nav .nav-item .nav-link {
+        font-size: 12px;
+        line-height: 22px;
+        padding: 0;
+        width: 70px;
+    }
+
+    .footer .footer-content>p {
+        padding: 30px 0 10px;
+    }
+
+
+}
