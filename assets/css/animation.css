@@ -1,0 +1,109 @@
+.main-heading {
+    animation: main-heading-animation 4s ease-in-out;
+}
+
+@keyframes main-heading-animation {
+    0% {
+        opacity: 0;
+        transform: translateX(-20px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.sub-heading {
+    animation: sub-heading-animation 4s ease-in-out;
+}
+
+@keyframes sub-heading-animation {
+    0% {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.banner .banner-img {
+    animation: banner-img .3s ease-in-out infinite;
+}
+
+@keyframes banner-img {
+    0% {
+        transform: rotate(-1deg);
+    }
+
+    25% {
+        transform: rotate(0deg);
+    }
+
+    50% {
+        transform: rotate(1deg);
+    }
+
+    75% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(-1deg);
+    }
+}
+
+.elevate .elevate-img {
+    animation: elevate-img .8s ease-in-out infinite;
+}
+
+@keyframes elevate-img {
+    0% {
+        transform: translateY(-5px);
+    }
+
+    25% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(5px);
+    }
+
+    75% {
+        transform: translateY(0);
+    }
+
+    100% {
+        transform: translateY(-5px);
+    }
+}
+
+.our-expert .drone-img {
+    animation: drone-img 1s ease-in-out infinite;
+}
+
+@keyframes drone-img {
+    0% {
+        transform: translateY(-18px);
+    }
+
+    25% {
+        transform: translateY(10px);
+    }
+
+    50% {
+        transform: translateY(18px);
+    }
+
+    75% {
+        transform: translateY(10px);
+    }
+
+    100% {
+        transform: translateY(-18px);
+    }
+}
